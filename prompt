@@ -1,0 +1,110 @@
+project:
+  name: MindSpark - Digital Mental Health Support System
+  type: react-webapp
+  theme: MedTech / BioTech / HealthTech
+  category: Software
+  target_users: Students in Higher Education
+  team_name: Mind Spark
+  problem_statement_id: 25092
+
+goals:
+  - Provide holistic psychological support to students
+  - Reduce stigma through confidential & anonymous usage
+  - Detect early mental health risks with AI chatbot
+  - Offer multilingual & culturally adaptive resources
+  - Enable institutions with data-driven dashboards
+
+features:
+  authentication:
+    - dedicated login/signup page
+    - Google OAuth login (via Firebase Auth or OAuth 2.0)
+    - JWT-based session management
+    - redirect user to homepage after login
+  homepage:
+    - floating chatbot button at bottom-right corner
+    - chatbot widget opens on button click
+    - chatbot capabilities:
+      - AI-driven 24/7 support
+      - coping strategies & mood check-ins
+      - sentiment analysis for early risk detection
+      - escalation to counselors in high-risk cases
+    - scroll-to-top behavior on page navigation
+  self_help_hub:
+    - guided meditation
+    - CBT-based exercises
+    - relaxation resources
+    - journaling, streaks, gamified tools
+    - multilingual content
+  peer_mentor_support:
+    - moderated community platform
+    - anonymous peer-to-peer interaction
+    - mentor/student discussion groups
+  counselor_booking:
+    - confidential booking system
+    - connect with campus counselors securely
+    - helpline integration (regional)
+  crisis_management:
+    - automated escalation to professionals
+    - alert mechanisms for severe cases
+  admin_dashboard:
+    - anonymous analytics
+    - track mental health trends
+    - institutional policy improvement
+
+uiux:
+  - modern, clean, minimal design
+  - responsive for web and mobile
+  - stigma-free experience with anonymized mode
+  - gamified engagement to encourage consistent use
+
+technical_stack:
+  frontend:
+    - React (TypeScript) for web
+    - Flutter/Dart for mobile
+    - Tailwind CSS for styling
+    - React Router with ScrollToTop fix
+  backend:
+    - Node.js / Express or Django
+    - RESTful & GraphQL APIs
+  database:
+    - MongoDB for unstructured data
+    - PostgreSQL for structured records
+  ai_ml:
+    - Python (TensorFlow / PyTorch)
+    - NLP for chatbot and sentiment analysis
+  auth_security:
+    - Firebase Authentication or OAuth 2.0
+    - JWT for secure sessions
+    - end-to-end encryption
+  deployment:
+    - Docker, Kubernetes
+    - AWS / Azure / GCP cloud services
+  analytics:
+    - Grafana / PowerBI
+    - integrated with backend
+  integrations:
+    - LMS / College Portals
+    - WhatsApp / Email notifications
+
+process_flow:
+  - Analyze needs
+  - Design architecture
+  - Develop prototype
+  - Test & refine
+  - Deploy
+  - Continuous improvement
+
+risks_and_challenges:
+  - Data privacy & confidentiality issues
+  - Low adoption due to stigma
+  - Limited AI chatbot accuracy
+  - Handling large user base (scalability)
+  - Integration with institutional systems
+
+mitigation_strategies:
+  - End-to-end encryption & anonymization
+  - Anonymous usage mode
+  - Awareness campaigns
+  - Human-in-the-loop validation
+  - Cloud-native, scalable architecture
+  - API-based college system integration
